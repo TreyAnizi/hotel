@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./images/pic3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: rgba(123, 142, 184, 0.445);
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+nav a:hover {
+  color: rgb(148, 42, 42);
+}
+
+.nav-list {
+  display: flex;
+  gap: 15px;
+  list-style-type: none;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  font-size: 30px;
+  color: rgb(10, 10, 10);
+}
+header {
+  background-image: url(/images/pic4.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.rooms-section {
+  padding: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+.rooms-text {
+  font-size: 40px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.parent {
+  width: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+}
+
+.card {
+  width: 100%;
+  background-color: beige;
+}
+
+.card img {
+  width: 100%;
+}
+
+.about {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  padding-top: 100px;
+  height: 100vh;
+  background-color: white;
+}
+
+.overlap img {
+  width: 100%;
+}
+.word h1 {
+  padding: 20px;
+}
+
+.word p {
+  padding: 20px;
+}
+
+.word a {
+  padding: 15px;
+  text-decoration: none;
+  color: red;
+}
+
+.white-section {
+  background-color: white;
+}
+
+.features {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 80px;
+}
+
+.feat {
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 60px;
+  text-decoration: underline;
+}
+.grid-mem i {
+  font-size: 100px;
+}
+.avail{
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    justify-content: center;
+    gap: 200px;
+    padding-top: 60px;
+}
+.promo h4{
+    color: azure;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.promo a{
+    text-decoration: none;
+    color: azure;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid;
+}
+.start{
+    padding-left: 200px;
+}
+.start h4{
+    color: azure;
+    font-size: 20px;
+}
+.meter{
+    background-color: white;
+    padding-top: 100px;}
+
+    
+.second-meter{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}  
+
+.gall-text{
+padding: 30px;
+padding-bottom: 80px;
+font-size: 30px;
+}
+
+
+.gall{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;}    
+
+    
+
+  
+    
+
+
+.gall img{
+    width: 250px;
+  height: 35vh;}
