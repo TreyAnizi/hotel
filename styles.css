@@ -52,6 +52,7 @@ button{
 
 }
 
+
 button:active{
   background-color: #004080;
   transform: scale(0.98);
@@ -76,7 +77,7 @@ header {
 }
 
 .rooms-text {
-  font-size: 40px;
+  font-size: 20px;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -111,9 +112,11 @@ header {
   background-color: white;
 }
 
+
 .overlap img {
   width: 100%;
 }
+
 .word h1 {
   padding: 20px;
 }
@@ -150,7 +153,7 @@ header {
 
 .feat {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   padding-bottom: 60px;
   text-decoration: underline;
 }
@@ -201,7 +204,7 @@ header {
 .gall-text {
   padding: 30px;
   padding-bottom: 80px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .gall {
@@ -220,7 +223,7 @@ header {
 
 .upcoming {
   background-color: white;
-  height: 150vh;
+  height: 100vh;
 }
 
 .second-upcoming {
@@ -250,6 +253,7 @@ header {
 .nano img {
   width: 270px;
   height: 30vh;
+  border-radius: 20px;
 }
 
 .events {
@@ -298,13 +302,79 @@ header {
 
 
 
-footer{
+.foot{
   background-color: rgb(56, 56, 56);
-  height: 100vh;
+  height: 40vh;
   display: flex;
   flex-direction: row;
   gap: 100px;
   padding: 80px;
- 
   
+}
+
+.footer-first{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-first a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: rgba(230, 13, 13, 0.63);
+  width: 75px;
+  border: 2px solid;
+  border-radius: 20px;
+  border-color: black;
+  color: black;
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quickmenulinks{
+  list-style-type: none;
+}
+
+.quickmenulinks a{
+  text-decoration: none;
+  color: rgba(236, 223, 223, 0.651);
+}
+
+.quickmenulinks a:hover{
+  color: aqua;
+}
+.quickmenulinks li{
+  line-height: 2;
+}
+
+.ministry-links{
+  list-style-type: none;
+}
+.ministry-links a{
+  text-decoration: none;
+  color: rgba(236, 223, 223, 0.651);
+}
+
+.ministry-links a:hover{
+  color: aqua;
+}
+
+.ministry-links li{
+  line-height: 2;
+}
+
+.socialicons{
+  list-style-type: none;
+}
+
+.socialicons a{
+  text-decoration: none;
+  color: rgba(236, 223, 223, 0.651);
+}
+.socialicons a:hover{
+  color: aqua;
 }

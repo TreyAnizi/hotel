@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./products.html">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <script src="./js/script.js" defer></script>
+    <!-- <script src="https://unpkg.com/@tailwindcss/browser@4"></script> -->
   </head>
   <body>
     <header>
@@ -26,10 +28,17 @@
       <div class="header-text">
         <h1>Welcome to Suites</h1>
         <p>Hotel & Resort</p>
-        <button id="btn">View Products</button>
+        <a href="./products.html"><button>Hotel Shop</button></a>
+        
       </div>
     </header>
+    
+    
+    <!-- <div class="grid grid-cols-3 gap-5" id="apiData">
+      <h1>hello world</h1>
+    </div> -->
 
+   
     <section class="rooms-section">
       <div class="rooms-text">
         <h1>Our Rooms</h1>
@@ -72,7 +81,7 @@
     <section class="white-section">
       <div class="about">
         <div class="overlap">
-          <img src="./images/pic3.jpg" alt="room" />
+          <img  src="./images/pic3.jpg" alt="room"/>
         </div>
 
         <div class="word">
@@ -171,7 +180,7 @@
 
         <div class="events">
           <div class="nano">
-            <img src="./images/pic2.jpg" alt="">
+            <img src="./images/pic10.jpg" alt="" />
             <p>Lorem ipsum, dolor sit</p>
             <p>December 20th, 2018</p>
             <p>
@@ -182,7 +191,7 @@
           </div>
 
           <div class="nano">
-            <img src="./images/pic2.jpg" alt="">
+            <img src="./images/pic9.jpg" alt="" />
             <p>Lorem ipsum, dolor sit</p>
             <p>December 20th, 2018</p>
             <p>
@@ -193,7 +202,7 @@
           </div>
 
           <div class="nano">
-            <img src="./images/pic2.jpg" alt="">
+            <img src="./images/pic8.jpg" alt="" />
             <p>Lorem ipsum, dolor sit</p>
             <p>December 20th, 2018</p>
             <p>
@@ -203,86 +212,99 @@
             </p>
           </div>
 
-          <div class="nano">
-            <img src="./images/pic2.jpg" alt="">
+          <!-- <div class="nano">
+            <img src="./images/pic2.jpg" alt="" />
             <p>Lorem ipsum, dolor sit</p>
             <p>December 20th, 2018</p>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
               hic adipisci praesentium quia. Dolores perferendis ab quod modi
               architecto sit ex molestias repudiandae.
+            </p>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <section class="rainbow">
+      <div class="upcoming-text">
+        <h1>What People Say</h1>
+      </div>
+      <div class="snow">
+        <div class="bolt">
+          <img src="./images/pic7.jpg" alt="" />
+          <div>
+            <h4>Trey Anizi Amoro</h4>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+              aliquid amet ipsum sit adipisicing alias dolor ipsum!"
+            </p>
+          </div>
+        </div>
+        <div class="bolt">
+          <img src="./images/pic6.jpg" alt="" />
+          <div>
+            <h4>Ransom Snow</h4>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+              aliquid amet ipsum sit adipisicing alias dolor ipsum!"
             </p>
           </div>
         </div>
       </div>
     </section>
-    <section class="rainbow">
-
-      <div class="upcoming-text">
-        <h1>What People Say</h1>
-      </div>
-      <div class="snow">
-      <div class="bolt">
-        <img src="./images/pic7.jpg" alt="">
-        <div>
-        <h4> Trey Anizi Amoro</h4>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid amet ipsum sit adipisicing alias dolor ipsum!"</p>
-      </div>
-      </div>
-      <div class="bolt">
-        <img src="./images/pic6.jpg" alt="">
-        <div>
-        <h4> Ransom Snow</h4>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid amet ipsum sit adipisicing alias dolor ipsum!"</p>
-      </div>
-      </div>
-    </div>
-
-
-
-    </section>
 
     <footer>
-     
-      <div>
-<p>About</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolorem fugit ipsum quisquam cum repellendus? Ipsam mollitia dolorem</p>
-<a href="http://">Read More</a>
+      <div class="foot">
+        <div class="footer-first">
+          <p>About</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Consectetur dolorem fugit ipsum quisquam cum repellendus? Ipsam
+            mollitia dolorem
+          </p>
+          <a href="http://">Read More</a>
+        </div>
+
+        <div class="menu">
+          <p>Quick Menus</p>
+          <ul class="quickmenulinks">
+            <li><a href="http://">About</a></li>
+            <li><a href="http://">Services</a></li>
+            <li><a href="http://">Approach</a></li>
+            <li><a href="http://">Sustainability</a></li>
+            <li><a href="http://">News</a></li>
+            <li><a href="http://">Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="menu">
+          <p>Ministries</p>
+          <ul class="ministry-links">
+            <li><a href="http://">Children</a></li>
+            <li><a href="http://">Women</a></li>
+            <li><a href="http://">Bible Study</a></li>
+            <li><a href="http://">Church</a></li>
+            <li><a href="http://">Missionaries</a></li>
+          </ul>
+        </div>
+
+        <div class="menu">
+          <p>Social Icons</p>
+          <div class="socialicons">
+            <a href="http://"
+              ><i class="fa fa-facebook" aria-hidden="true"></i
+            ></a>
+            <a href="http://"
+              ><i class="fa fa-twitter" aria-hidden="true"></i
+            ></a>
+            <a href="http://"
+              ><i class="fa fa-instagram" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+        <!-- <p>Designed by Trey Anizi Amoro</p> -->
       </div>
-     
-     
-      <div>
-        <p>Quick Menus</p>
-        <ul>
-          
-            <li><a href="http://">hgshfbsgg</a></li>
-            <li><a href="http://">hgshfbsgg</a></li>
-            <li><a href="http://">hgshfbsgg</a></li>
-            <li><a href="http://">hgshfbsgg</a></li>
-            <li><a href="http://">hgshfbsgg</a></li>
-            <li><a href="http://">hgshfbsgg</a></li>
-        </ul>
-      </div>
-      
-      <div>
-        <p>Ministries</p>
-        <ul>
-          <li><a href="http://">hgshfbsgg</a></li>
-          <li><a href="http://">hgshfbsgg</a></li>
-          <li><a href="http://">hgshfbsgg</a></li>
-          <li><a href="http://">hgshfbsgg</a></li>
-          <li><a href="http://">hgshfbsgg</a></li>
-         </ul>
-      </div>
-      
-      <div>
-        <p>Social Icons</p>
-       <div>
-        <a href="http://"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a href="http://"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="http://"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-       </div>
-      </div>
+
     
     </footer>
   </body>
